@@ -1,0 +1,41 @@
+Analysis Resources1. OverviewThis document collects all statistical scripts, programming codes, and calculation formulae adopted for raw data cleaning, descriptive statistics, hypothesis testing and data modelling in this study. All resources are complete, executable and fully corresponding to the datasets presented in the manuscript.2. Statistical & Programming ScriptsAll scripts are developed and applied for processing questionnaire data, interview thematic coding results and user evaluation data:
+Data Script
+Used for sorting raw questionnaire data, removing invalid responses (e.g., repeated answers, missing values, illogical selections), standardizing data formats and recoding categorical variables (age groups, gender, icon preference types, department categories).
+Descriptive Statistics Script
+Calculates frequency, percentage, mean and standard deviation of all measured variables, summarizing users’ basic information and overall preference for static/dynamic icons and icon styles.
+Chi-Square Test Script
+Applied to examine the correlations between demographic factors (age, gender, education) and users’ preference for different signage icons, as well as the differences in user experience across various hospital departments.
+Likert Scale Analysis Script
+Processes 5-point Likert scale data to evaluate respondents’ ratings on emotional relief, navigation efficiency, visual recognizability and information delivery effectiveness of icons.
+Thematic Coding Auxiliary Script
+Assists in sorting and classifying semi-structured interview texts, extracting core viewpoints and user demands related to hospital wayfinding signage design.
+3. Calculation FormulaeAll formulae used for data statistics and index calculation are listed below:
+
+Valid Sample Ratio
+\(\text{Valid Sample Ratio} = \frac{N_{\text{valid}}}{N_{\text{total}}} \times 100\%\)
+\(N_{\text{valid}}\) = Number of valid questionnaires / samples
+\(N_{\text{total}}\) = Total number of distributed questionnaires / samples
+
+
+Frequency & Percentage Calculation
+\(\text{Percentage} = \frac{f}{N} \times 100\%\)
+f = Frequency of a certain option / category
+N = Total valid samples
+
+
+Pearson’s Chi-Square Statistic
+\(\chi^2=\sum_{i=1}^{k}\frac{(O_i-E_i)^2}{E_i}\)
+\(O_i\) = Observed frequency
+\(E_i\) = Expected frequency
+k = Number of categories
+
+
+5-Point Likert Scale Mean Score
+\(\bar{X} = \frac{\sum_{i=1}^{n} X_i}{n}\)
+\(X_i\) = Individual score of each respondent
+n = Total valid samples of corresponding item
+
+4. Supplementary Notes
+All scripts run on common statistical software (SPSS / Python). The core code text and running logs are attached as supplementary files.
+All formulae strictly follow standard statistical specifications for social science and human factors research.
+All computational results in the manuscript are generated from the above resources, which guarantee the reproducibility of the whole research.
